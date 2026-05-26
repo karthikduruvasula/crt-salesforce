@@ -25,6 +25,9 @@ LaunchApp
     ClickText         ${appName}    anchor=Apps
     # Optional: Wait for the page to transition
     VerifyText        ${appName}    timeout=15s
-    
+
+Logout 
+    ClickText    Show menu
+    ClickText    Logout
 End Test Session
     CloseBrowser
